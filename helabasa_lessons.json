@@ -1,0 +1,2321 @@
+{
+  "appId": "helabasa_english_guru",
+  "databaseVersion": 1,
+  "language": "si-LK",
+  "targetLanguage": "en",
+  "descriptionSi": "සිංහල මාධ්‍යයෙන් English මුල සිට ඉගෙනගැනීම සඳහා මුල් පාඩම් 20.",
+  "levels": [
+    {
+      "levelId": "level_00",
+      "levelNumber": 0,
+      "title": "English ආරම්භය",
+      "description": "අකුරු, මූලික වචන, සුබ පැතුම් සහ සංඛ්‍යා හඳුනාගැනීම.",
+      "lessonIds": [
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ]
+    },
+    {
+      "levelId": "level_01",
+      "levelNumber": 1,
+      "title": "Basic English",
+      "description": "Pronouns, be verbs, articles, demonstratives සහ have/has භාවිතය.",
+      "lessonIds": [
+        "lesson_06",
+        "lesson_07",
+        "lesson_08",
+        "lesson_09",
+        "lesson_10"
+      ]
+    },
+    {
+      "levelId": "level_02",
+      "levelNumber": 2,
+      "title": "Sentence Building",
+      "description": "වචන විස්තර කිරීම, plural, ownership, present simple සහ negative sentences.",
+      "lessonIds": [
+        "lesson_11",
+        "lesson_12",
+        "lesson_13",
+        "lesson_14",
+        "lesson_15"
+      ]
+    },
+    {
+      "levelId": "level_03",
+      "levelNumber": 3,
+      "title": "Everyday English",
+      "description": "ප්‍රශ්න ඇසීම, හැකියාව, ස්ථාන, දෛනික ක්‍රියා සහ සරල සංවාද.",
+      "lessonIds": [
+        "lesson_16",
+        "lesson_17",
+        "lesson_18",
+        "lesson_19",
+        "lesson_20"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "lesson_01",
+      "levelId": "level_00",
+      "lessonNumber": 1,
+      "title": "English Alphabet (A–Z)",
+      "learningObjective": "English හෝඩියේ capital සහ lowercase අකුරු 26 හඳුනාගෙන ඒවායේ නම් කියවීමට හැකි වීම.",
+      "explanationSi": "English හෝඩියේ අකුරු 26ක් තිබෙනවා. Capital letters යනු විශාල අකුරුයි (A, B, C). Lowercase letters යනු කුඩා අකුරුයි (a, b, c). වාක්‍යයක ආරම්භයේ සහ පුද්ගල නම් වැනි proper nouns ලිවීමේදී capital letters භාවිතා කරනවා.",
+      "vocabulary": [
+        {
+          "english": "A a",
+          "meaningSi": "අකුර A",
+          "pronunciationSi": "Apple යන වචනය A අකුරෙන් ආරම්භ වේ."
+        },
+        {
+          "english": "B b",
+          "meaningSi": "අකුර B",
+          "pronunciationSi": "Book යන වචනය B අකුරෙන් ආරම්භ වේ."
+        },
+        {
+          "english": "C c",
+          "meaningSi": "අකුර C",
+          "pronunciationSi": "Cat යන වචනය C අකුරෙන් ආරම්භ වේ."
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "A",
+          "meaningSi": "ඒ"
+        },
+        {
+          "pattern": "B",
+          "meaningSi": "බී"
+        },
+        {
+          "pattern": "C",
+          "meaningSi": "සී"
+        },
+        {
+          "pattern": "D",
+          "meaningSi": "ඩී"
+        },
+        {
+          "pattern": "E",
+          "meaningSi": "ඊ"
+        },
+        {
+          "pattern": "F",
+          "meaningSi": "එෆ්"
+        },
+        {
+          "pattern": "G",
+          "meaningSi": "ජී"
+        },
+        {
+          "pattern": "H",
+          "meaningSi": "එච්"
+        },
+        {
+          "pattern": "I",
+          "meaningSi": "අයි"
+        },
+        {
+          "pattern": "J",
+          "meaningSi": "ජේ"
+        },
+        {
+          "pattern": "K",
+          "meaningSi": "කේ"
+        },
+        {
+          "pattern": "L",
+          "meaningSi": "එල්"
+        },
+        {
+          "pattern": "M",
+          "meaningSi": "එම්"
+        },
+        {
+          "pattern": "N",
+          "meaningSi": "එන්"
+        },
+        {
+          "pattern": "O",
+          "meaningSi": "ඕ"
+        },
+        {
+          "pattern": "P",
+          "meaningSi": "පී"
+        },
+        {
+          "pattern": "Q",
+          "meaningSi": "කියු"
+        },
+        {
+          "pattern": "R",
+          "meaningSi": "ආර්"
+        },
+        {
+          "pattern": "S",
+          "meaningSi": "එස්"
+        },
+        {
+          "pattern": "T",
+          "meaningSi": "ටී"
+        },
+        {
+          "pattern": "U",
+          "meaningSi": "යූ"
+        },
+        {
+          "pattern": "V",
+          "meaningSi": "වී"
+        },
+        {
+          "pattern": "W",
+          "meaningSi": "ඩබ්ලිව්"
+        },
+        {
+          "pattern": "X",
+          "meaningSi": "එක්ස්"
+        },
+        {
+          "pattern": "Y",
+          "meaningSi": "වයි"
+        },
+        {
+          "pattern": "Z",
+          "meaningSi": "සෙඩ් (බ්‍රිතාන්‍ය) / සී (ඇමරිකානු)"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A",
+          "meaningSi": "Apple"
+        },
+        {
+          "english": "B",
+          "meaningSi": "Book"
+        },
+        {
+          "english": "C",
+          "meaningSi": "Cat"
+        }
+      ],
+      "practiceActivitySi": "අකුරු A–Z පිළිවෙළට ලියන්න. ඉන්පසු capital සහ lowercase යුගල ගළපන්න. ඔබේ නම capital letter එකකින් ආරම්භ කර ලියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_01_q1",
+          "questionSi": "English alphabet එකේ අකුරු කීයක් තිබෙනවාද?",
+          "options": [
+            "24",
+            "26",
+            "28"
+          ],
+          "correctAnswer": "26",
+          "explanationSi": "English හෝඩියේ අකුරු 26ක් තිබෙනවා."
+        },
+        {
+          "questionId": "lesson_01_q2",
+          "questionSi": "කුඩා අකුර a හි capital form එක කුමක්ද?",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "explanationSi": "a සහ A එකම අකුරේ lowercase සහ capital ආකාරයි."
+        },
+        {
+          "questionId": "lesson_01_q3",
+          "questionSi": "සාමාන්‍යයෙන් පුද්ගල නමක මුල් අකුර ලියන්නේ කෙසේද?",
+          "options": [
+            "lowercase",
+            "capital",
+            "අංකයකින්"
+          ],
+          "correctAnswer": "capital",
+          "explanationSi": "පුද්ගල නම් capital letter එකකින් ආරම්භ කරනවා."
+        }
+      ],
+      "alphabet": [
+        {
+          "capital": "A",
+          "lowercase": "a",
+          "namePronunciationSi": "ඒ"
+        },
+        {
+          "capital": "B",
+          "lowercase": "b",
+          "namePronunciationSi": "බී"
+        },
+        {
+          "capital": "C",
+          "lowercase": "c",
+          "namePronunciationSi": "සී"
+        },
+        {
+          "capital": "D",
+          "lowercase": "d",
+          "namePronunciationSi": "ඩී"
+        },
+        {
+          "capital": "E",
+          "lowercase": "e",
+          "namePronunciationSi": "ඊ"
+        },
+        {
+          "capital": "F",
+          "lowercase": "f",
+          "namePronunciationSi": "එෆ්"
+        },
+        {
+          "capital": "G",
+          "lowercase": "g",
+          "namePronunciationSi": "ජී"
+        },
+        {
+          "capital": "H",
+          "lowercase": "h",
+          "namePronunciationSi": "එච්"
+        },
+        {
+          "capital": "I",
+          "lowercase": "i",
+          "namePronunciationSi": "අයි"
+        },
+        {
+          "capital": "J",
+          "lowercase": "j",
+          "namePronunciationSi": "ජේ"
+        },
+        {
+          "capital": "K",
+          "lowercase": "k",
+          "namePronunciationSi": "කේ"
+        },
+        {
+          "capital": "L",
+          "lowercase": "l",
+          "namePronunciationSi": "එල්"
+        },
+        {
+          "capital": "M",
+          "lowercase": "m",
+          "namePronunciationSi": "එම්"
+        },
+        {
+          "capital": "N",
+          "lowercase": "n",
+          "namePronunciationSi": "එන්"
+        },
+        {
+          "capital": "O",
+          "lowercase": "o",
+          "namePronunciationSi": "ඕ"
+        },
+        {
+          "capital": "P",
+          "lowercase": "p",
+          "namePronunciationSi": "පී"
+        },
+        {
+          "capital": "Q",
+          "lowercase": "q",
+          "namePronunciationSi": "කියු"
+        },
+        {
+          "capital": "R",
+          "lowercase": "r",
+          "namePronunciationSi": "ආර්"
+        },
+        {
+          "capital": "S",
+          "lowercase": "s",
+          "namePronunciationSi": "එස්"
+        },
+        {
+          "capital": "T",
+          "lowercase": "t",
+          "namePronunciationSi": "ටී"
+        },
+        {
+          "capital": "U",
+          "lowercase": "u",
+          "namePronunciationSi": "යූ"
+        },
+        {
+          "capital": "V",
+          "lowercase": "v",
+          "namePronunciationSi": "වී"
+        },
+        {
+          "capital": "W",
+          "lowercase": "w",
+          "namePronunciationSi": "ඩබ්ලිව්"
+        },
+        {
+          "capital": "X",
+          "lowercase": "x",
+          "namePronunciationSi": "එක්ස්"
+        },
+        {
+          "capital": "Y",
+          "lowercase": "y",
+          "namePronunciationSi": "වයි"
+        },
+        {
+          "capital": "Z",
+          "lowercase": "z",
+          "namePronunciationSi": "සෙඩ් (UK) / සී (US)"
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_02",
+      "levelId": "level_00",
+      "lessonNumber": 2,
+      "title": "Vowels & Consonants",
+      "learningObjective": "Vowels පහ සහ consonants අතර වෙනස හඳුනාගෙන උදාහරණ වෙන් කිරීමට හැකි වීම.",
+      "explanationSi": "English අකුරු vowels සහ consonants ලෙස කාණ්ඩ දෙකකට බෙදෙනවා. මූලික vowels පහ A, E, I, O, U. අනෙක් අකුරු consonants ලෙස හඳුන්වනවා. වචනයක vowel ශබ්දය අනුව a/an තෝරාගැනීමටත් මේ දැනුම වැදගත්.",
+      "vocabulary": [
+        {
+          "english": "Vowel",
+          "meaningSi": "ස්වර අකුර",
+          "pronunciationSi": "A, E, I, O, U vowels වේ."
+        },
+        {
+          "english": "Consonant",
+          "meaningSi": "ව්‍යංජන අකුර",
+          "pronunciationSi": "B, C, D වැනි අකුරු consonants වේ."
+        },
+        {
+          "english": "A E I O U",
+          "meaningSi": "ස්වර අකුරු පහ",
+          "pronunciationSi": "මෙම අකුරු පහ මතක තබාගන්න."
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "A",
+          "meaningSi": "ඒ"
+        },
+        {
+          "pattern": "E",
+          "meaningSi": "ඊ"
+        },
+        {
+          "pattern": "I",
+          "meaningSi": "අයි"
+        },
+        {
+          "pattern": "O",
+          "meaningSi": "ඕ"
+        },
+        {
+          "pattern": "U",
+          "meaningSi": "යූ"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Apple",
+          "meaningSi": "ඇපල්"
+        },
+        {
+          "english": "Egg",
+          "meaningSi": "බිත්තරය"
+        },
+        {
+          "english": "Book",
+          "meaningSi": "පොත"
+        }
+      ],
+      "practiceActivitySi": "පහත වචනවල මුල් අකුර වට කරන්න: apple, egg, ice, orange, umbrella, book, cat. මුල් අකුර vowel ද consonant ද කියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_02_q1",
+          "questionSi": "Vowels පහෙන් එකක් තෝරන්න.",
+          "options": [
+            "B",
+            "E",
+            "T"
+          ],
+          "correctAnswer": "E",
+          "explanationSi": "E යනු vowels පහෙන් එකක්."
+        },
+        {
+          "questionId": "lesson_02_q2",
+          "questionSi": "පහත කුමක් consonant එකක්ද?",
+          "options": [
+            "A",
+            "O",
+            "M"
+          ],
+          "correctAnswer": "M",
+          "explanationSi": "M යනු consonant අකුරක්."
+        },
+        {
+          "questionId": "lesson_02_q3",
+          "questionSi": "Umbrella යන වචනය ආරම්භ වන්නේ කුමන vowel එකෙන්ද?",
+          "options": [
+            "U",
+            "A",
+            "E"
+          ],
+          "correctAnswer": "U",
+          "explanationSi": "Umbrella හි මුල් අකුර U වේ."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_03",
+      "levelId": "level_00",
+      "lessonNumber": 3,
+      "title": "Basic English Words",
+      "learningObjective": "දිනපතා භාවිතා වන මූලික English වචන 20ක් හඳුනාගෙන Sinhala අර්ථය සමඟ මතක තබාගැනීම.",
+      "explanationSi": "මුලින්ම වටපිටාවේ දකින දේවල් සහ පවුලේ අය හඳුන්වන වචන ඉගෙනගනිමු. වචනයක් කියවීම, අර්ථය මතක තබාගැනීම සහ සරල වාක්‍යයක භාවිතා කිරීම පුහුණු වන්න.",
+      "vocabulary": [
+        {
+          "english": "Apple",
+          "meaningSi": "ඇපල් ගෙඩිය"
+        },
+        {
+          "english": "Book",
+          "meaningSi": "පොත"
+        },
+        {
+          "english": "Pen",
+          "meaningSi": "පෑන"
+        },
+        {
+          "english": "Water",
+          "meaningSi": "වතුර"
+        },
+        {
+          "english": "Food",
+          "meaningSi": "ආහාර"
+        },
+        {
+          "english": "House",
+          "meaningSi": "නිවස"
+        },
+        {
+          "english": "School",
+          "meaningSi": "පාසල"
+        },
+        {
+          "english": "Teacher",
+          "meaningSi": "ගුරුවරයා/ගුරුවරිය"
+        },
+        {
+          "english": "Student",
+          "meaningSi": "ශිෂ්‍යයා/ශිෂ්‍යාව"
+        },
+        {
+          "english": "Mother",
+          "meaningSi": "අම්මා"
+        },
+        {
+          "english": "Father",
+          "meaningSi": "තාත්තා"
+        },
+        {
+          "english": "Brother",
+          "meaningSi": "සහෝදරයා"
+        },
+        {
+          "english": "Sister",
+          "meaningSi": "සහෝදරිය"
+        },
+        {
+          "english": "Friend",
+          "meaningSi": "මිතුරා/මිතුරිය"
+        },
+        {
+          "english": "Dog",
+          "meaningSi": "බල්ලා"
+        },
+        {
+          "english": "Cat",
+          "meaningSi": "පූසා"
+        },
+        {
+          "english": "Sun",
+          "meaningSi": "සූර්යයා"
+        },
+        {
+          "english": "Moon",
+          "meaningSi": "සඳ"
+        },
+        {
+          "english": "Chair",
+          "meaningSi": "පුටුව"
+        },
+        {
+          "english": "Table",
+          "meaningSi": "මේසය"
+        }
+      ],
+      "sentencePatterns": [],
+      "examples": [
+        {
+          "english": "This is a book.",
+          "meaningSi": "මේ පොතක්."
+        },
+        {
+          "english": "I drink water.",
+          "meaningSi": "මම වතුර බොනවා."
+        },
+        {
+          "english": "She is my mother.",
+          "meaningSi": "ඇය මගේ අම්මා."
+        }
+      ],
+      "practiceActivitySi": "වචන 20න් 10ක් තෝරාගෙන flashcards සාදන්න. එක් පැත්තක English වචනයත් අනෙක් පැත්තේ Sinhala අර්ථයත් ලියන්න. පසුව වචන 5ක් යොදා වාක්‍ය 5ක් සාදන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_03_q1",
+          "questionSi": "Water යන්නෙහි Sinhala අර්ථය කුමක්ද?",
+          "options": [
+            "වතුර",
+            "පොත",
+            "පුටුව"
+          ],
+          "correctAnswer": "වතුර",
+          "explanationSi": "Water යනු වතුරයි."
+        },
+        {
+          "questionId": "lesson_03_q2",
+          "questionSi": "Teacher යනු කවුද?",
+          "options": [
+            "ශිෂ්‍යයා",
+            "ගුරුවරයා/ගුරුවරිය",
+            "මිතුරා"
+          ],
+          "correctAnswer": "ගුරුවරයා/ගුරුවරිය",
+          "explanationSi": "Teacher යනු උගන්වන පුද්ගලයායි."
+        },
+        {
+          "questionId": "lesson_03_q3",
+          "questionSi": "Chair යන්නෙහි අර්ථය කුමක්ද?",
+          "options": [
+            "මේසය",
+            "නිවස",
+            "පුටුව"
+          ],
+          "correctAnswer": "පුටුව",
+          "explanationSi": "Chair යනු පුටුවයි."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_04",
+      "levelId": "level_00",
+      "lessonNumber": 4,
+      "title": "Greetings",
+      "learningObjective": "සාමාන්‍ය සුබ පැතුම් සහ ස්තුති/සමාව ඉල්ලීමේ ප්‍රකාශ සුදුසු අවස්ථාවල භාවිතා කිරීම.",
+      "explanationSi": "කෙනෙකු හමුවූ විට හෝ සමුගන්නා විට greetings භාවිතා කරනවා. දවසේ වේලාව අනුව Good morning, Good afternoon, Good evening කියන්න පුළුවන්. Good night සාමාන්‍යයෙන් රාත්‍රියේ සමුගැනීමේදී හෝ නිදාගැනීමට පෙර කියනවා.",
+      "vocabulary": [
+        {
+          "english": "Hello / Hi",
+          "meaningSi": "ආයුබෝවන් / හායි"
+        },
+        {
+          "english": "Good morning",
+          "meaningSi": "සුබ උදෑසනක්"
+        },
+        {
+          "english": "Good afternoon",
+          "meaningSi": "සුබ දහවලක්"
+        },
+        {
+          "english": "Good evening",
+          "meaningSi": "සුබ සන්ධ්‍යාවක්"
+        },
+        {
+          "english": "Good night",
+          "meaningSi": "සුබ රාත්‍රියක්"
+        },
+        {
+          "english": "Goodbye",
+          "meaningSi": "ගිහින් එන්නම් / සමුගන්නවා"
+        },
+        {
+          "english": "See you",
+          "meaningSi": "නැවත හමුවෙමු"
+        },
+        {
+          "english": "Thank you",
+          "meaningSi": "ස්තුතියි"
+        },
+        {
+          "english": "Sorry",
+          "meaningSi": "සමාවෙන්න"
+        }
+      ],
+      "sentencePatterns": [],
+      "examples": [
+        {
+          "english": "Hello! How are you?",
+          "meaningSi": "ආයුබෝවන්! ඔබට කොහොමද?"
+        },
+        {
+          "english": "Thank you very much.",
+          "meaningSi": "ඔබට බොහොම ස්තුතියි."
+        },
+        {
+          "english": "Goodbye. See you tomorrow.",
+          "meaningSi": "ගිහින් එන්නම්. හෙට හමුවෙමු."
+        }
+      ],
+      "practiceActivitySi": "මිතුරෙකු සමඟ උදෑසන හමුවීමක් සහ සවස සමුගැනීමක් රඟපාන්න. අවස්ථාවට ගැළපෙන greeting එක තෝරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_04_q1",
+          "questionSi": "උදෑසන කෙනෙකු හමුවූ විට සුදුසු ප්‍රකාශය කුමක්ද?",
+          "options": [
+            "Good night",
+            "Good morning",
+            "Goodbye"
+          ],
+          "correctAnswer": "Good morning",
+          "explanationSi": "උදෑසන සුබ පැතීමට Good morning භාවිතා කරනවා."
+        },
+        {
+          "questionId": "lesson_04_q2",
+          "questionSi": "ස්තුතිය පළ කිරීමට කියන්නේ කුමක්ද?",
+          "options": [
+            "Sorry",
+            "Thank you",
+            "See you"
+          ],
+          "correctAnswer": "Thank you",
+          "explanationSi": "Thank you යනු ස්තුතියි යන්නයි."
+        },
+        {
+          "questionId": "lesson_04_q3",
+          "questionSi": "නිදාගැනීමට පෙර හෝ රාත්‍රියේ සමුගැනීමේදී කියන්නේ?",
+          "options": [
+            "Good night",
+            "Good afternoon",
+            "Hello"
+          ],
+          "correctAnswer": "Good night",
+          "explanationSi": "Good night රාත්‍රියේ භාවිතා කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_05",
+      "levelId": "level_00",
+      "lessonNumber": 5,
+      "title": "Numbers 1–20",
+      "learningObjective": "English සංඛ්‍යා 1 සිට 20 දක්වා කියවීමට, ලිවීමට සහ හඳුනාගැනීමට හැකි වීම.",
+      "explanationSi": "සංඛ්‍යා වයස, මිල, දුරකථන අංක සහ ගණන් කිරීම සඳහා භාවිතා වෙනවා. 1–20 දක්වා වචන හොඳින් පුහුණු කර ශබ්දයෙන් කියන්න.",
+      "vocabulary": [
+        {
+          "english": "One",
+          "meaningSi": "එක"
+        },
+        {
+          "english": "Two",
+          "meaningSi": "දෙක"
+        },
+        {
+          "english": "Three",
+          "meaningSi": "තුන"
+        },
+        {
+          "english": "Four",
+          "meaningSi": "හතර"
+        },
+        {
+          "english": "Five",
+          "meaningSi": "පහ"
+        },
+        {
+          "english": "Six",
+          "meaningSi": "හය"
+        },
+        {
+          "english": "Seven",
+          "meaningSi": "හත"
+        },
+        {
+          "english": "Eight",
+          "meaningSi": "අට"
+        },
+        {
+          "english": "Nine",
+          "meaningSi": "නවය"
+        },
+        {
+          "english": "Ten",
+          "meaningSi": "දහය"
+        },
+        {
+          "english": "Eleven",
+          "meaningSi": "එකොළහ"
+        },
+        {
+          "english": "Twelve",
+          "meaningSi": "දොළහ"
+        },
+        {
+          "english": "Thirteen",
+          "meaningSi": "දහතුන"
+        },
+        {
+          "english": "Fourteen",
+          "meaningSi": "දහහතර"
+        },
+        {
+          "english": "Fifteen",
+          "meaningSi": "පහළොව"
+        },
+        {
+          "english": "Sixteen",
+          "meaningSi": "දහසය"
+        },
+        {
+          "english": "Seventeen",
+          "meaningSi": "දහහත"
+        },
+        {
+          "english": "Eighteen",
+          "meaningSi": "දහඅට"
+        },
+        {
+          "english": "Nineteen",
+          "meaningSi": "දහනවය"
+        },
+        {
+          "english": "Twenty",
+          "meaningSi": "විස්ස"
+        }
+      ],
+      "sentencePatterns": [],
+      "examples": [
+        {
+          "english": "I have two pens.",
+          "meaningSi": "මට පෑන් දෙකක් තිබෙනවා."
+        },
+        {
+          "english": "She is ten years old.",
+          "meaningSi": "ඇයට වයස අවුරුදු දහයයි."
+        },
+        {
+          "english": "There are five books.",
+          "meaningSi": "පොත් පහක් තිබෙනවා."
+        }
+      ],
+      "practiceActivitySi": "1–20 දක්වා ඉහළට සහ පහළට ගණන් කරන්න. ඔබ ළඟ ඇති වස්තු තුනක් ගණන් කර English වලින් කියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_05_q1",
+          "questionSi": "15 යන්න English වලින් කුමක්ද?",
+          "options": [
+            "Fifteen",
+            "Fifty",
+            "Five"
+          ],
+          "correctAnswer": "Fifteen",
+          "explanationSi": "15 යනු Fifteen."
+        },
+        {
+          "questionId": "lesson_05_q2",
+          "questionSi": "Twenty යනු කීයද?",
+          "options": [
+            "12",
+            "20",
+            "10"
+          ],
+          "correctAnswer": "20",
+          "explanationSi": "Twenty යනු 20."
+        },
+        {
+          "questionId": "lesson_05_q3",
+          "questionSi": "Eight යන්නෙහි සංඛ්‍යාත්මක අගය කුමක්ද?",
+          "options": [
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": "8",
+          "explanationSi": "Eight යනු 8."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_06",
+      "levelId": "level_01",
+      "lessonNumber": 6,
+      "title": "Pronouns",
+      "learningObjective": "I, You, He, She, It, We, They යන pronouns නිවැරදි පුද්ගලයා/දේ වෙනුවට භාවිතා කිරීම.",
+      "explanationSi": "Pronoun එකක් noun එකක් නැවත නැවත නොකියා එය වෙනුවට යොදන වචනයක්. I = මම, You = ඔබ/ඔයා, He = ඔහු, She = ඇය, It = එය, We = අපි, They = ඔවුන්. He සාමාන්‍යයෙන් පිරිමි පුද්ගලයෙකුටත් She ගැහැණු පුද්ගලයෙකුටත් යොදනවා.",
+      "vocabulary": [
+        {
+          "english": "I",
+          "meaningSi": "මම"
+        },
+        {
+          "english": "You",
+          "meaningSi": "ඔබ / ඔයා"
+        },
+        {
+          "english": "He",
+          "meaningSi": "ඔහු"
+        },
+        {
+          "english": "She",
+          "meaningSi": "ඇය"
+        },
+        {
+          "english": "It",
+          "meaningSi": "එය"
+        },
+        {
+          "english": "We",
+          "meaningSi": "අපි"
+        },
+        {
+          "english": "They",
+          "meaningSi": "ඔවුන්"
+        }
+      ],
+      "sentencePatterns": [],
+      "examples": [
+        {
+          "english": "I am a student.",
+          "meaningSi": "මම ශිෂ්‍යයෙක්/ශිෂ්‍යාවක්."
+        },
+        {
+          "english": "She is my sister.",
+          "meaningSi": "ඇය මගේ සහෝදරියයි."
+        },
+        {
+          "english": "They are friends.",
+          "meaningSi": "ඔවුන් මිතුරන්."
+        }
+      ],
+      "practiceActivitySi": "නාම 5ක් තෝරා ඒවාට ගැළපෙන pronoun එක ලියන්න. ඉන්පසු pronoun එකක් යොදා වාක්‍ය 3ක් සාදන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_06_q1",
+          "questionSi": "ඔබ ගැන කියන විට භාවිතා කරන්නේ?",
+          "options": [
+            "I",
+            "He",
+            "They"
+          ],
+          "correctAnswer": "I",
+          "explanationSi": "I යනු මම යන්නයි."
+        },
+        {
+          "questionId": "lesson_06_q2",
+          "questionSi": "ගැහැණු පුද්ගලයෙකු වෙනුවට සාමාන්‍යයෙන් යොදන්නේ?",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "correctAnswer": "She",
+          "explanationSi": "She යනු ඇය යන්නයි."
+        },
+        {
+          "questionId": "lesson_06_q3",
+          "questionSi": "අපි යන්නට ගැළපෙන pronoun එක?",
+          "options": [
+            "We",
+            "You",
+            "It"
+          ],
+          "correctAnswer": "We",
+          "explanationSi": "We යනු අපි යන්නයි."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_07",
+      "levelId": "level_01",
+      "lessonNumber": 7,
+      "title": "Am, Is, Are",
+      "learningObjective": "Subject එකට ගැළපෙන am, is, are තෝරා සරල වාක්‍ය සෑදීම.",
+      "explanationSi": "Am, is, are යනු be verb ආකාර තුනයි. I සමඟ am භාවිතා කරනවා. He, She, It සහ එක් පුද්ගලයෙකු/දෙයක් සමඟ is භාවිතා කරනවා. You, We, They සහ බහු වචන සමඟ are භාවිතා කරනවා.",
+      "vocabulary": [
+        {
+          "english": "I am",
+          "meaningSi": "මම වෙමි / මම ...යි"
+        },
+        {
+          "english": "He is / She is / It is",
+          "meaningSi": "ඔහු / ඇය / එය ...යි"
+        },
+        {
+          "english": "You are / We are / They are",
+          "meaningSi": "ඔබ / අපි / ඔවුන් ...යි"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "I am + noun/adjective",
+          "meaningSi": "I am happy. = මම සතුටින්."
+        },
+        {
+          "pattern": "She is + noun/adjective",
+          "meaningSi": "She is a teacher. = ඇය ගුරුවරියක්."
+        },
+        {
+          "pattern": "They are + noun/adjective",
+          "meaningSi": "They are ready. = ඔවුන් සූදානම්."
+        }
+      ],
+      "examples": [
+        {
+          "english": "I am a student.",
+          "meaningSi": "මම ශිෂ්‍යයෙක්/ශිෂ්‍යාවක්."
+        },
+        {
+          "english": "He is tall.",
+          "meaningSi": "ඔහු උසයි."
+        },
+        {
+          "english": "We are happy.",
+          "meaningSi": "අපි සතුටින්."
+        }
+      ],
+      "practiceActivitySi": "හිස්තැන් පුරවන්න: I __ ready. She __ happy. They __ students. ඉන්පසු ඔබ ගැන වාක්‍ය දෙකක් ලියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_07_q1",
+          "questionSi": "I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correctAnswer": "am",
+          "explanationSi": "I සමඟ am යොදනවා."
+        },
+        {
+          "questionId": "lesson_07_q2",
+          "questionSi": "She ___ happy.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correctAnswer": "is",
+          "explanationSi": "She සමඟ is යොදනවා."
+        },
+        {
+          "questionId": "lesson_07_q3",
+          "questionSi": "They ___ friends.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correctAnswer": "are",
+          "explanationSi": "They සමඟ are යොදනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_08",
+      "levelId": "level_01",
+      "lessonNumber": 8,
+      "title": "Articles: A, An, The",
+      "learningObjective": "A, An සහ The භාවිතා කරන මූලික අවස්ථා හඳුනාගැනීම.",
+      "explanationSi": "A සහ An යනු සාමාන්‍යයෙන් එකක්/එක් පුද්ගලයෙක් හෝ දෙයක් හඳුන්වන indefinite articles. අකුර පමණක් නොව මුල් ශබ්දය බලන්න: vowel sound එකකට පෙර An (an apple), වෙනත් sound එකකට පෙර A (a book). The යනු නිශ්චිතව හඳුනාගත් දෙයක් ගැන කියන විට භාවිතා කරනවා.",
+      "vocabulary": [
+        {
+          "english": "A",
+          "meaningSi": "එක / එක් — consonant sound එකකට පෙර"
+        },
+        {
+          "english": "An",
+          "meaningSi": "එක / එක් — vowel sound එකකට පෙර"
+        },
+        {
+          "english": "The",
+          "meaningSi": "එම / ඒ නිශ්චිත"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "a book",
+          "meaningSi": "පොතක්"
+        },
+        {
+          "pattern": "an apple",
+          "meaningSi": "ඇපල් ගෙඩියක්"
+        },
+        {
+          "pattern": "the sun",
+          "meaningSi": "සූර්යයා"
+        }
+      ],
+      "examples": [
+        {
+          "english": "I have a pen.",
+          "meaningSi": "මට පෑනක් තිබෙනවා."
+        },
+        {
+          "english": "She eats an apple.",
+          "meaningSi": "ඇය ඇපල් ගෙඩියක් කනවා."
+        },
+        {
+          "english": "The book is on the table.",
+          "meaningSi": "ඒ පොත මේසය මත තිබෙනවා."
+        }
+      ],
+      "practiceActivitySi": "වස්තු 6ක් නම් කර ඒවාට a හෝ an යොදන්න. පසුව ඔබ සහ මිතුරෙකු දන්නා නිශ්චිත වස්තුවක් ගැන the යොදා වාක්‍යයක් ලියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_08_q1",
+          "questionSi": "___ apple",
+          "options": [
+            "A",
+            "An",
+            "The only"
+          ],
+          "correctAnswer": "An",
+          "explanationSi": "Apple යන වචනය vowel sound එකකින් ආරම්භ වන නිසා an යොදනවා."
+        },
+        {
+          "questionId": "lesson_08_q2",
+          "questionSi": "___ book",
+          "options": [
+            "A",
+            "An",
+            "Are"
+          ],
+          "correctAnswer": "A",
+          "explanationSi": "Book හි මුල් ශබ්දය consonant නිසා a යොදනවා."
+        },
+        {
+          "questionId": "lesson_08_q3",
+          "questionSi": "නිශ්චිතව හඳුනාගත් දෙයක් ගැන සාමාන්‍යයෙන් යොදන්නේ?",
+          "options": [
+            "A",
+            "An",
+            "The"
+          ],
+          "correctAnswer": "The",
+          "explanationSi": "The යනු definite article එකයි."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_09",
+      "levelId": "level_01",
+      "lessonNumber": 9,
+      "title": "This, That, These, Those",
+      "learningObjective": "ළඟ සහ දුර ඇති එකක් හෝ කිහිපයක් පෙන්වීමට demonstratives භාවිතා කිරීම.",
+      "explanationSi": "This/These ළඟ ඇති දේවල් පෙන්වනවා. This එක දෙයක් සඳහාත් These කිහිපයක් සඳහාත් යොදනවා. That/Those දුර ඇති දේවල් පෙන්වනවා. That එකක් සඳහාත් Those කිහිපයක් සඳහාත් යොදනවා.",
+      "vocabulary": [
+        {
+          "english": "This",
+          "meaningSi": "මේ — ළඟ ඇති එකක්"
+        },
+        {
+          "english": "That",
+          "meaningSi": "අර / ඒ — දුර ඇති එකක්"
+        },
+        {
+          "english": "These",
+          "meaningSi": "මේවා — ළඟ ඇති කිහිපයක්"
+        },
+        {
+          "english": "Those",
+          "meaningSi": "අරවා — දුර ඇති කිහිපයක්"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "This is + singular noun",
+          "meaningSi": "This is a pen. = මේ පෑනක්."
+        },
+        {
+          "pattern": "These are + plural noun",
+          "meaningSi": "These are books. = මේවා පොත්."
+        },
+        {
+          "pattern": "That is / Those are",
+          "meaningSi": "That is a house. = අර නිවසයි."
+        }
+      ],
+      "examples": [
+        {
+          "english": "This is my phone.",
+          "meaningSi": "මේ මගේ දුරකථනයයි."
+        },
+        {
+          "english": "That is your house.",
+          "meaningSi": "අර ඔබේ නිවසයි."
+        },
+        {
+          "english": "These are my books.",
+          "meaningSi": "මේවා මගේ පොත්."
+        }
+      ],
+      "practiceActivitySi": "ඔබ ළඟ ඇති වස්තු දෙකකට This/These ද, දුර ඇති වස්තු දෙකකට That/Those ද යොදා වාක්‍ය හතරක් කියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_09_q1",
+          "questionSi": "ළඟ ඇති එක වස්තුවක් පෙන්වීමට?",
+          "options": [
+            "This",
+            "Those",
+            "That"
+          ],
+          "correctAnswer": "This",
+          "explanationSi": "This යනු ළඟ ඇති එකක් පෙන්වනවා."
+        },
+        {
+          "questionId": "lesson_09_q2",
+          "questionSi": "දුර ඇති වස්තු කිහිපයක් පෙන්වීමට?",
+          "options": [
+            "These",
+            "Those",
+            "This"
+          ],
+          "correctAnswer": "Those",
+          "explanationSi": "Those යනු දුර ඇති බහු වචන දේවල් පෙන්වනවා."
+        },
+        {
+          "questionId": "lesson_09_q3",
+          "questionSi": "These සමඟ සාමාන්‍යයෙන් ගැළපෙන්නේ?",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "correctAnswer": "are",
+          "explanationSi": "These බහු වචන නිසා are භාවිතා කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_10",
+      "levelId": "level_01",
+      "lessonNumber": 10,
+      "title": "Have & Has",
+      "learningObjective": "හිමිකම හෝ යමක් තිබීම ප්‍රකාශ කිරීමට have සහ has නිවැරදිව භාවිතා කිරීම.",
+      "explanationSi": "Have සහ Has යන verbs යමක් තිබෙන බව/හිමි බව කියන්න භාවිතා කරනවා. I, You, We, They සමඟ have යොදනවා. He, She, It සහ එක් පුද්ගලයෙකු සමඟ has යොදනවා.",
+      "vocabulary": [
+        {
+          "english": "Have",
+          "meaningSi": "තිබෙනවා — I/You/We/They"
+        },
+        {
+          "english": "Has",
+          "meaningSi": "තිබෙනවා — He/She/It"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "I have + noun",
+          "meaningSi": "I have a pen. = මට පෑනක් තිබෙනවා."
+        },
+        {
+          "pattern": "She has + noun",
+          "meaningSi": "She has a cat. = ඇයට පූසෙක් ඉන්නවා."
+        },
+        {
+          "pattern": "They have + noun",
+          "meaningSi": "They have a house. = ඔවුන්ට නිවසක් තිබෙනවා."
+        }
+      ],
+      "examples": [
+        {
+          "english": "We have a car.",
+          "meaningSi": "අපට කාර් එකක් තිබෙනවා."
+        },
+        {
+          "english": "He has two brothers.",
+          "meaningSi": "ඔහුට සහෝදරයන් දෙදෙනෙක් ඉන්නවා."
+        },
+        {
+          "english": "It has four legs.",
+          "meaningSi": "එයට කකුල් හතරක් තිබෙනවා."
+        }
+      ],
+      "practiceActivitySi": "ඔබට තිබෙන දේවල් තුනක් I have යොදා ලියන්න. මිතුරෙකුට තිබෙන දේවල් දෙකක් He/She has යොදා ලියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_10_q1",
+          "questionSi": "I ___ a book.",
+          "options": [
+            "have",
+            "has",
+            "is"
+          ],
+          "correctAnswer": "have",
+          "explanationSi": "I සමඟ have භාවිතා කරනවා."
+        },
+        {
+          "questionId": "lesson_10_q2",
+          "questionSi": "She ___ a sister.",
+          "options": [
+            "have",
+            "has",
+            "are"
+          ],
+          "correctAnswer": "has",
+          "explanationSi": "She සමඟ has භාවිතා කරනවා."
+        },
+        {
+          "questionId": "lesson_10_q3",
+          "questionSi": "They ___ a house.",
+          "options": [
+            "has",
+            "have",
+            "am"
+          ],
+          "correctAnswer": "have",
+          "explanationSi": "They සමඟ have භාවිතා කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_11",
+      "levelId": "level_02",
+      "lessonNumber": 11,
+      "title": "Adjectives",
+      "learningObjective": "සාමාන්‍ය adjectives භාවිතයෙන් පුද්ගලයන් සහ දේවල් විස්තර කිරීම.",
+      "explanationSi": "Adjective යනු noun එකක් හෝ පුද්ගලයෙක්/දෙයක් විස්තර කරන වචනයක්. උදාහරණයක් ලෙස big = විශාල, small = කුඩා, happy = සතුටින්. English වාක්‍යයක adjective එක noun එකට පෙර හෝ be verb එකකට පසු එන්න පුළුවන්.",
+      "vocabulary": [
+        {
+          "english": "Big",
+          "meaningSi": "විශාල"
+        },
+        {
+          "english": "Small",
+          "meaningSi": "කුඩා"
+        },
+        {
+          "english": "Good",
+          "meaningSi": "හොඳ"
+        },
+        {
+          "english": "Bad",
+          "meaningSi": "නරක"
+        },
+        {
+          "english": "Beautiful",
+          "meaningSi": "ලස්සන"
+        },
+        {
+          "english": "Happy",
+          "meaningSi": "සතුටින්"
+        },
+        {
+          "english": "Sad",
+          "meaningSi": "දුකින්"
+        },
+        {
+          "english": "Tall",
+          "meaningSi": "උස"
+        },
+        {
+          "english": "Short",
+          "meaningSi": "මිටි / කෙටි"
+        },
+        {
+          "english": "New",
+          "meaningSi": "අලුත්"
+        },
+        {
+          "english": "Old",
+          "meaningSi": "පරණ / වයසක"
+        },
+        {
+          "english": "Hot",
+          "meaningSi": "උණුසුම්"
+        },
+        {
+          "english": "Cold",
+          "meaningSi": "සීතල"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "a big house",
+          "meaningSi": "විශාල නිවසක්"
+        },
+        {
+          "pattern": "a beautiful flower",
+          "meaningSi": "ලස්සන මලක්"
+        },
+        {
+          "pattern": "The water is cold.",
+          "meaningSi": "වතුර සීතලයි."
+        }
+      ],
+      "examples": [
+        {
+          "english": "This is a big house.",
+          "meaningSi": "මේ විශාල නිවසක්."
+        },
+        {
+          "english": "I am happy.",
+          "meaningSi": "මම සතුටින්."
+        },
+        {
+          "english": "The tea is hot.",
+          "meaningSi": "තේ උණුසුම්."
+        }
+      ],
+      "practiceActivitySi": "ඔබේ කාමරයේ ඇති වස්තු තුනක් adjectives යොදා විස්තර කරන්න. උදා: a small table.",
+      "quiz": [
+        {
+          "questionId": "lesson_11_q1",
+          "questionSi": "Beautiful යන්නෙහි අර්ථය?",
+          "options": [
+            "නරක",
+            "ලස්සන",
+            "සීතල"
+          ],
+          "correctAnswer": "ලස්සන",
+          "explanationSi": "Beautiful යනු ලස්සන යන්නයි."
+        },
+        {
+          "questionId": "lesson_11_q2",
+          "questionSi": "Cold යන්නෙහි අර්ථය?",
+          "options": [
+            "උණුසුම්",
+            "උස",
+            "සීතල"
+          ],
+          "correctAnswer": "සීතල",
+          "explanationSi": "Cold යනු සීතල යන්නයි."
+        },
+        {
+          "questionId": "lesson_11_q3",
+          "questionSi": "Adjective එකක ප්‍රධාන කාර්යය කුමක්ද?",
+          "options": [
+            "ක්‍රියාවක් පෙන්වීම",
+            "නාමයක් විස්තර කිරීම",
+            "ප්‍රශ්නයක් ඇසීම"
+          ],
+          "correctAnswer": "නාමයක් විස්තර කිරීම",
+          "explanationSi": "Adjective එකක් noun එකක් හෝ තත්ත්වයක් විස්තර කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_12",
+      "levelId": "level_02",
+      "lessonNumber": 12,
+      "title": "Singular & Plural",
+      "learningObjective": "එකක් සහ කිහිපයක් අතර වෙනස හඳුනාගෙන සාමාන්‍ය plural forms සහ common irregular forms භාවිතා කිරීම.",
+      "explanationSi": "Singular යනු එකක්. Plural යනු එකකට වඩා වැඩි ගණනක්. බොහෝ nouns වලට -s එකතු කරනවා (book/books). සමහර වචන වෙනස් ආකාර ගන්නවා: man/men, woman/women, child/children, foot/feet, tooth/teeth. සියලුම වචනවලට -s පමණක් එකතු කරන්න එපා.",
+      "vocabulary": [
+        {
+          "english": "Book / Books",
+          "meaningSi": "පොත / පොත්"
+        },
+        {
+          "english": "Cat / Cats",
+          "meaningSi": "පූසා / පූසන්"
+        },
+        {
+          "english": "Man / Men",
+          "meaningSi": "පිරිමියා / පිරිමින්"
+        },
+        {
+          "english": "Woman / Women",
+          "meaningSi": "කාන්තාව / කාන්තාවන්"
+        },
+        {
+          "english": "Child / Children",
+          "meaningSi": "දරුවා / දරුවන්"
+        },
+        {
+          "english": "Foot / Feet",
+          "meaningSi": "පාදය / පාද"
+        },
+        {
+          "english": "Tooth / Teeth",
+          "meaningSi": "දත / දත්"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "one book → two books",
+          "meaningSi": "පොතක් → පොත් දෙකක්"
+        },
+        {
+          "pattern": "one child → three children",
+          "meaningSi": "දරුවෙක් → දරුවන් තුන්දෙනෙක්"
+        },
+        {
+          "pattern": "one tooth → many teeth",
+          "meaningSi": "දතක් → දත් කිහිපයක්"
+        }
+      ],
+      "examples": [
+        {
+          "english": "I have two books.",
+          "meaningSi": "මට පොත් දෙකක් තිබෙනවා."
+        },
+        {
+          "english": "The children are happy.",
+          "meaningSi": "දරුවන් සතුටින්."
+        },
+        {
+          "english": "He has white teeth.",
+          "meaningSi": "ඔහුට සුදු දත් තිබෙනවා."
+        }
+      ],
+      "practiceActivitySi": "වස්තු පහක singular සහ plural ආකාර ලියන්න. child, man සහ tooth යන වචනත් වෙනම පුහුණු කරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_12_q1",
+          "questionSi": "Book හි සාමාන්‍ය plural form එක?",
+          "options": [
+            "Bookes",
+            "Books",
+            "Book"
+          ],
+          "correctAnswer": "Books",
+          "explanationSi": "සාමාන්‍යයෙන් book + s = books."
+        },
+        {
+          "questionId": "lesson_12_q2",
+          "questionSi": "Child හි plural form එක?",
+          "options": [
+            "Childs",
+            "Children",
+            "Childes"
+          ],
+          "correctAnswer": "Children",
+          "explanationSi": "Child යනු irregular plural එකක්; children ලෙස වෙනස් වෙනවා."
+        },
+        {
+          "questionId": "lesson_12_q3",
+          "questionSi": "Tooth හි plural form එක?",
+          "options": [
+            "Tooths",
+            "Teeth",
+            "Toothes"
+          ],
+          "correctAnswer": "Teeth",
+          "explanationSi": "Tooth හි plural form එක teeth."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_13",
+      "levelId": "level_02",
+      "lessonNumber": 13,
+      "title": "Possessives",
+      "learningObjective": "My, Your, His, Her, Its, Our, Their භාවිතයෙන් හිමිකම පෙන්වීම.",
+      "explanationSi": "Possessive adjectives යමක් කාගේද කියා පෙන්වනවා. මේවා සාමාන්‍යයෙන් noun එකකට පෙර යොදනවා: my book, her bag. Its යනු සතෙකුට හෝ දෙයකට අදාළ හිමිකමයි; it's යනු it is යන කෙටි ආකාරය බව මතක තබාගන්න.",
+      "vocabulary": [
+        {
+          "english": "My",
+          "meaningSi": "මගේ"
+        },
+        {
+          "english": "Your",
+          "meaningSi": "ඔබේ"
+        },
+        {
+          "english": "His",
+          "meaningSi": "ඔහුගේ"
+        },
+        {
+          "english": "Her",
+          "meaningSi": "ඇයගේ"
+        },
+        {
+          "english": "Its",
+          "meaningSi": "එහි"
+        },
+        {
+          "english": "Our",
+          "meaningSi": "අපේ"
+        },
+        {
+          "english": "Their",
+          "meaningSi": "ඔවුන්ගේ"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "my + noun",
+          "meaningSi": "my book = මගේ පොත"
+        },
+        {
+          "pattern": "her + noun",
+          "meaningSi": "her bag = ඇගේ බෑගය"
+        },
+        {
+          "pattern": "their + noun",
+          "meaningSi": "their house = ඔවුන්ගේ නිවස"
+        }
+      ],
+      "examples": [
+        {
+          "english": "This is my phone.",
+          "meaningSi": "මේ මගේ දුරකථනයයි."
+        },
+        {
+          "english": "His name is Amal.",
+          "meaningSi": "ඔහුගේ නම අමල්."
+        },
+        {
+          "english": "Our teacher is kind.",
+          "meaningSi": "අපේ ගුරුවරයා කරුණාවන්තයි."
+        }
+      ],
+      "practiceActivitySi": "පවුලේ සාමාජිකයන් තිදෙනෙකු ගැන ඔවුන්ගේ දේවල් සඳහන් කරමින් possessive වාක්‍ය තුනක් ලියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_13_q1",
+          "questionSi": "My යන්නෙහි අර්ථය?",
+          "options": [
+            "ඔබේ",
+            "මගේ",
+            "ඔවුන්ගේ"
+          ],
+          "correctAnswer": "මගේ",
+          "explanationSi": "My යනු මගේ යන්නයි."
+        },
+        {
+          "questionId": "lesson_13_q2",
+          "questionSi": "He සමඟ සම්බන්ධ possessive adjective එක?",
+          "options": [
+            "Her",
+            "His",
+            "Their"
+          ],
+          "correctAnswer": "His",
+          "explanationSi": "His යනු ඔහුගේ යන්නයි."
+        },
+        {
+          "questionId": "lesson_13_q3",
+          "questionSi": "අපේ යන්නට ගැළපෙන්නේ?",
+          "options": [
+            "Our",
+            "Your",
+            "Its"
+          ],
+          "correctAnswer": "Our",
+          "explanationSi": "Our යනු අපේ යන්නයි."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_14",
+      "levelId": "level_02",
+      "lessonNumber": 14,
+      "title": "Present Simple",
+      "learningObjective": "දෛනික පුරුදු සහ සාමාන්‍ය සත්‍ය ප්‍රකාශ කිරීමට Present Simple භාවිතා කිරීම.",
+      "explanationSi": "Present Simple දෛනික පුරුදු, නැවත නැවත සිදුවන ක්‍රියා සහ සාමාන්‍ය සත්‍ය සඳහා භාවිතා කරනවා. I/You/We/They සමඟ base verb භාවිතා කරනවා. He/She/It සමඟ සාමාන්‍යයෙන් verb එකට -s හෝ -es එකතු කරනවා: I work; she works. go → goes, watch → watches.",
+      "vocabulary": [
+        {
+          "english": "I work",
+          "meaningSi": "මම වැඩ කරනවා"
+        },
+        {
+          "english": "You play",
+          "meaningSi": "ඔබ සෙල්ලම් කරනවා"
+        },
+        {
+          "english": "He works",
+          "meaningSi": "ඔහු වැඩ කරනවා"
+        },
+        {
+          "english": "She goes",
+          "meaningSi": "ඇය යනවා"
+        },
+        {
+          "english": "They study",
+          "meaningSi": "ඔවුන් ඉගෙනගන්නවා"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "I/You/We/They + base verb",
+          "meaningSi": "I play cricket. = මම ක්‍රිකට් සෙල්ලම් කරනවා."
+        },
+        {
+          "pattern": "He/She/It + verb-s/-es",
+          "meaningSi": "He plays cricket. = ඔහු ක්‍රිකට් සෙල්ලම් කරනවා."
+        },
+        {
+          "pattern": "go → goes; watch → watches",
+          "meaningSi": "යනවා → goes; නරඹනවා → watches"
+        }
+      ],
+      "examples": [
+        {
+          "english": "I wake up at six.",
+          "meaningSi": "මම හයට අවදි වෙනවා."
+        },
+        {
+          "english": "She reads every day.",
+          "meaningSi": "ඇය හැමදාම කියවනවා."
+        },
+        {
+          "english": "He goes to school.",
+          "meaningSi": "ඔහු පාසලට යනවා."
+        }
+      ],
+      "practiceActivitySi": "ඔබේ දෛනික පුරුදු ගැන Present Simple භාවිතයෙන් වාක්‍ය පහක් ලියන්න. ඉන්පසු He/She subject එකක් යොදා වාක්‍ය දෙකක් වෙනස් කරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_14_q1",
+          "questionSi": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "going"
+          ],
+          "correctAnswer": "goes",
+          "explanationSi": "She සමඟ go → goes ලෙස -es එකතු කරනවා."
+        },
+        {
+          "questionId": "lesson_14_q2",
+          "questionSi": "I ___ English.",
+          "options": [
+            "study",
+            "studies",
+            "studying"
+          ],
+          "correctAnswer": "study",
+          "explanationSi": "I සමඟ base verb study භාවිතා කරනවා."
+        },
+        {
+          "questionId": "lesson_14_q3",
+          "questionSi": "Present Simple භාවිතා කරන්නේ කුමකටද?",
+          "options": [
+            "දෛනික පුරුදු",
+            "අනාගත සැලසුම් පමණක්",
+            "ඊයේ සිදු වූ දේ"
+          ],
+          "correctAnswer": "දෛනික පුරුදු",
+          "explanationSi": "Present Simple දෛනික පුරුදු සහ සාමාන්‍ය සත්‍ය සඳහා භාවිතා කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_15",
+      "levelId": "level_02",
+      "lessonNumber": 15,
+      "title": "Negative Sentences",
+      "learningObjective": "Present Simple වාක්‍ය do not/does not භාවිතයෙන් ඍණ වාක්‍ය බවට පත් කිරීම.",
+      "explanationSi": "Present Simple ඍණ වාක්‍ය සඳහා I/You/We/They සමඟ do not (don't) භාවිතා කරනවා. He/She/It සමඟ does not (doesn't) භාවිතා කරනවා. Doesn't පසු verb එක base form එකෙන් යොදන්න: She doesn't like (නොව likes).",
+      "vocabulary": [
+        {
+          "english": "do not / don't",
+          "meaningSi": "නොකරයි / නැහැ — I/You/We/They"
+        },
+        {
+          "english": "does not / doesn't",
+          "meaningSi": "නොකරයි / නැහැ — He/She/It"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "I do not play.",
+          "meaningSi": "මම සෙල්ලම් කරන්නේ නැහැ."
+        },
+        {
+          "pattern": "She does not work.",
+          "meaningSi": "ඇය වැඩ කරන්නේ නැහැ."
+        },
+        {
+          "pattern": "doesn't + base verb",
+          "meaningSi": "He doesn't go. = ඔහු යන්නේ නැහැ."
+        }
+      ],
+      "examples": [
+        {
+          "english": "I don't drink coffee.",
+          "meaningSi": "මම කෝපි බොන්නේ නැහැ."
+        },
+        {
+          "english": "He doesn't play football.",
+          "meaningSi": "ඔහු පාපන්දු සෙල්ලම් කරන්නේ නැහැ."
+        },
+        {
+          "english": "They don't live here.",
+          "meaningSi": "ඔවුන් මෙහි ජීවත් වෙන්නේ නැහැ."
+        }
+      ],
+      "practiceActivitySi": "ධනාත්මක වාක්‍ය තුනක් ලියලා ඒවා don't/doesn't යොදා ඍණ වාක්‍ය බවට පත් කරන්න. Doesn't පසු verb එකේ -s ඉවත් කරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_15_q1",
+          "questionSi": "I ___ like tea.",
+          "options": [
+            "doesn't",
+            "don't",
+            "isn't"
+          ],
+          "correctAnswer": "don't",
+          "explanationSi": "I සමඟ don't යොදනවා."
+        },
+        {
+          "questionId": "lesson_15_q2",
+          "questionSi": "He doesn't ___ football.",
+          "options": [
+            "plays",
+            "play",
+            "playing"
+          ],
+          "correctAnswer": "play",
+          "explanationSi": "Doesn't පසු base verb play යොදනවා."
+        },
+        {
+          "questionId": "lesson_15_q3",
+          "questionSi": "She ___ work here.",
+          "options": [
+            "don't",
+            "doesn't",
+            "aren't"
+          ],
+          "correctAnswer": "doesn't",
+          "explanationSi": "She සමඟ doesn't යොදනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_16",
+      "levelId": "level_03",
+      "lessonNumber": 16,
+      "title": "Questions: WH Words",
+      "learningObjective": "What, Who, Where, When, Why, How, Which සහ How much යොදා සරල තොරතුරු ප්‍රශ්න ඇසීම.",
+      "explanationSi": "WH-words භාවිතා කරන්නේ විස්තර දැනගැනීමටයි. What = මොකක්ද, Who = කවුද, Where = කොහෙද, When = කවදාද, Why = ඇයි, How = කොහොමද, Which = කුමක්ද/කොයි එකද, How much = කොපමණද (මිල/ගණන් කළ නොහැකි ප්‍රමාණ). ප්‍රශ්නයේ ඉතිරි ව්‍යුහය verb එක අනුව වෙනස් වෙනවා.",
+      "vocabulary": [
+        {
+          "english": "What",
+          "meaningSi": "මොකක්ද"
+        },
+        {
+          "english": "Who",
+          "meaningSi": "කවුද"
+        },
+        {
+          "english": "Where",
+          "meaningSi": "කොහෙද"
+        },
+        {
+          "english": "When",
+          "meaningSi": "කවදාද"
+        },
+        {
+          "english": "Why",
+          "meaningSi": "ඇයි"
+        },
+        {
+          "english": "How",
+          "meaningSi": "කොහොමද"
+        },
+        {
+          "english": "Which",
+          "meaningSi": "කොයි එකද"
+        },
+        {
+          "english": "How much",
+          "meaningSi": "කොපමණද / මිල කීයද"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "What is your name?",
+          "meaningSi": "ඔබේ නම මොකක්ද?"
+        },
+        {
+          "pattern": "Where do you live?",
+          "meaningSi": "ඔබ කොහෙද ජීවත් වෙන්නේ?"
+        },
+        {
+          "pattern": "How much is it?",
+          "meaningSi": "මේකේ මිල කීයද?"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Who is your teacher?",
+          "meaningSi": "ඔබේ ගුරුවරයා කවුද?"
+        },
+        {
+          "english": "When do you study?",
+          "meaningSi": "ඔබ කවදාද ඉගෙනගන්නේ?"
+        },
+        {
+          "english": "Why are you happy?",
+          "meaningSi": "ඔබ සතුටින් ඉන්නේ ඇයි?"
+        }
+      ],
+      "practiceActivitySi": "WH-word එකකට එක ප්‍රශ්නය බැගින් ලියන්න. මිතුරෙකුගෙන් ප්‍රශ්න තුනක් අසා English වලින් පිළිතුරු සටහන් කරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_16_q1",
+          "questionSi": "පුද්ගලයෙකු ගැන අසන්නේ කුමන WH-word එකෙන්ද?",
+          "options": [
+            "Where",
+            "Who",
+            "When"
+          ],
+          "correctAnswer": "Who",
+          "explanationSi": "Who යනු කවුද යන්නයි."
+        },
+        {
+          "questionId": "lesson_16_q2",
+          "questionSi": "ස්ථානයක් ගැන අසන්නේ?",
+          "options": [
+            "Where",
+            "Why",
+            "What"
+          ],
+          "correctAnswer": "Where",
+          "explanationSi": "Where යනු කොහෙද යන්නයි."
+        },
+        {
+          "questionId": "lesson_16_q3",
+          "questionSi": "මිලක් අසන්න සුදුසු ප්‍රශ්න ආරම්භය?",
+          "options": [
+            "How much",
+            "Who much",
+            "When much"
+          ],
+          "correctAnswer": "How much",
+          "explanationSi": "How much is it? යනුවෙන් මිල අසන්න පුළුවන්."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_17",
+      "levelId": "level_03",
+      "lessonNumber": 17,
+      "title": "Can & Cannot",
+      "learningObjective": "හැකියාව සහ නොහැකියාව ප්‍රකාශ කිරීමට can/cannot/can't සහ ප්‍රශ්න ආකාර භාවිතා කිරීම.",
+      "explanationSi": "Can යනු යමක් කළ හැකි බව කියන modal verb එකක්. Cannot හෝ can't යනු කළ නොහැකි බවයි. Can පසු verb එකේ base form එක යොදනවා; -s හෝ to එකතු කරන්නේ නැහැ. ප්‍රශ්නයක් සඳහා Can subject එකට පෙර යොදනවා.",
+      "vocabulary": [
+        {
+          "english": "Can",
+          "meaningSi": "හැකියි"
+        },
+        {
+          "english": "Cannot / Can't",
+          "meaningSi": "බැහැ / නොහැකියි"
+        },
+        {
+          "english": "Can you...?",
+          "meaningSi": "ඔබට ... කළ හැකිද?"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "can + base verb",
+          "meaningSi": "I can swim. = මට පීනන්න පුළුවන්."
+        },
+        {
+          "pattern": "cannot + base verb",
+          "meaningSi": "She cannot drive. = ඇයට රිය පදවන්න බැහැ."
+        },
+        {
+          "pattern": "Can + subject + base verb?",
+          "meaningSi": "Can you help me? = ඔබට මට උදව් කළ හැකිද?"
+        }
+      ],
+      "examples": [
+        {
+          "english": "I can speak Sinhala.",
+          "meaningSi": "මට සිංහල කතා කරන්න පුළුවන්."
+        },
+        {
+          "english": "He can't swim.",
+          "meaningSi": "ඔහුට පීනන්න බැහැ."
+        },
+        {
+          "english": "Can you help me?",
+          "meaningSi": "ඔබට මට උදව් කරන්න පුළුවන්ද?"
+        }
+      ],
+      "practiceActivitySi": "ඔබට කළ හැකි දේවල් තුනක් සහ කළ නොහැකි දේවල් දෙකක් can/can't යොදා කියන්න. මිතුරෙකුගෙන් Can you...? ප්‍රශ්න දෙකක් අසන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_17_q1",
+          "questionSi": "Can පසු නිවැරදි verb form එක කුමක්ද?",
+          "options": [
+            "to swim",
+            "swims",
+            "swim"
+          ],
+          "correctAnswer": "swim",
+          "explanationSi": "Can පසු base verb එක යොදනවා."
+        },
+        {
+          "questionId": "lesson_17_q2",
+          "questionSi": "I ___ drive. (මට රිය පදවන්න බැහැ.)",
+          "options": [
+            "can't",
+            "doesn't",
+            "am not"
+          ],
+          "correctAnswer": "can't",
+          "explanationSi": "හැකියාවක් නැති බව කියන්න can't භාවිතා කරනවා."
+        },
+        {
+          "questionId": "lesson_17_q3",
+          "questionSi": "හැකියාවක් ගැන ප්‍රශ්නයක් අසන්නේ?",
+          "options": [
+            "You can swim?",
+            "Can you swim?",
+            "Do can you swim?"
+          ],
+          "correctAnswer": "Can you swim?",
+          "explanationSi": "Can යන්න subject එකට පෙර තබා ප්‍රශ්නය සකස් කරනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_18",
+      "levelId": "level_03",
+      "lessonNumber": 18,
+      "title": "Prepositions",
+      "learningObjective": "මූලික prepositions භාවිතයෙන් වස්තුවක පිහිටීම විස්තර කිරීම.",
+      "explanationSi": "Prepositions මඟින් පුද්ගලයෙකු හෝ වස්තුවක් තිබෙන ස්ථානය/සම්බන්ධතාව පෙන්වනවා. In = ඇතුළේ, On = මතුපිට, Under = යට, Near = ළඟ වැනි අර්ථ තිබෙනවා. වස්තුවක් පෙන්වා වාක්‍යයෙන් පිහිටීම කියා පුහුණු වන්න.",
+      "vocabulary": [
+        {
+          "english": "In",
+          "meaningSi": "ඇතුළේ"
+        },
+        {
+          "english": "On",
+          "meaningSi": "මතුපිට / උඩ"
+        },
+        {
+          "english": "Under",
+          "meaningSi": "යට"
+        },
+        {
+          "english": "Near",
+          "meaningSi": "ළඟ"
+        },
+        {
+          "english": "Behind",
+          "meaningSi": "පිටුපස"
+        },
+        {
+          "english": "In front of",
+          "meaningSi": "ඉදිරිපස"
+        },
+        {
+          "english": "Between",
+          "meaningSi": "අතර"
+        },
+        {
+          "english": "Next to",
+          "meaningSi": "අසල / ළඟින්"
+        },
+        {
+          "english": "Above",
+          "meaningSi": "ඉහළින්"
+        },
+        {
+          "english": "Below",
+          "meaningSi": "පහළින්"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "in the box",
+          "meaningSi": "පෙට්ටිය ඇතුළේ"
+        },
+        {
+          "pattern": "on the table",
+          "meaningSi": "මේසය මත"
+        },
+        {
+          "pattern": "under the chair",
+          "meaningSi": "පුටුව යට"
+        },
+        {
+          "pattern": "between two books",
+          "meaningSi": "පොත් දෙක අතර"
+        }
+      ],
+      "examples": [
+        {
+          "english": "The cat is under the table.",
+          "meaningSi": "පූසා මේසය යට ඉන්නවා."
+        },
+        {
+          "english": "The book is on the desk.",
+          "meaningSi": "පොත මේසය මත තිබෙනවා."
+        },
+        {
+          "english": "The school is near my house.",
+          "meaningSi": "පාසල මගේ නිවස ළඟයි."
+        }
+      ],
+      "practiceActivitySi": "පෑනක් සහ පොතක් භාවිතා කර ඒවායේ පිහිටීම වෙනස් කරන්න. In, on, under, behind, next to යොදා වාක්‍ය පහක් කියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_18_q1",
+          "questionSi": "පෙට්ටිය ඇතුළේ යන්නට ගැළපෙන්නේ?",
+          "options": [
+            "On the box",
+            "In the box",
+            "Under the box"
+          ],
+          "correctAnswer": "In the box",
+          "explanationSi": "In යනු ඇතුළේ යන්නයි."
+        },
+        {
+          "questionId": "lesson_18_q2",
+          "questionSi": "මේසය යට යන්නට ගැළපෙන්නේ?",
+          "options": [
+            "Under the table",
+            "Above the table",
+            "Between the table"
+          ],
+          "correctAnswer": "Under the table",
+          "explanationSi": "Under යනු යට යන්නයි."
+        },
+        {
+          "questionId": "lesson_18_q3",
+          "questionSi": "වස්තු දෙකක් අතර යන්නට?",
+          "options": [
+            "Behind",
+            "Between",
+            "Near"
+          ],
+          "correctAnswer": "Between",
+          "explanationSi": "Between යනු දෙයක් දෙකක් අතර තිබීමයි."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_19",
+      "levelId": "level_03",
+      "lessonNumber": 19,
+      "title": "Daily Routine",
+      "learningObjective": "දෛනික ක්‍රියාකාරකම්වල වචන ඉගෙනගෙන Present Simple භාවිතයෙන් තම දවස විස්තර කිරීම.",
+      "explanationSi": "Daily routine යනු දිනපතා කරන ක්‍රියාකාරකම්. wake up = අවදි වෙනවා, brush my teeth = දත් මදිනවා, have breakfast = උදේ ආහාරය ගන්නවා වැනි ප්‍රකාශ ඉගෙනගන්න. තමන්ගේ පුරුදු ගැන කියන විට Present Simple භාවිතා කරන්න.",
+      "vocabulary": [
+        {
+          "english": "Wake up",
+          "meaningSi": "අවදි වෙනවා"
+        },
+        {
+          "english": "Brush my teeth",
+          "meaningSi": "දත් මදිනවා"
+        },
+        {
+          "english": "Take a shower",
+          "meaningSi": "නානවා"
+        },
+        {
+          "english": "Have breakfast",
+          "meaningSi": "උදේ ආහාරය ගන්නවා"
+        },
+        {
+          "english": "Go to work/school",
+          "meaningSi": "වැඩට/පාසලට යනවා"
+        },
+        {
+          "english": "Have lunch",
+          "meaningSi": "දවල් ආහාරය ගන්නවා"
+        },
+        {
+          "english": "Come home",
+          "meaningSi": "ගෙදර එනවා"
+        },
+        {
+          "english": "Do homework",
+          "meaningSi": "ගෙදර වැඩ කරනවා"
+        },
+        {
+          "english": "Have dinner",
+          "meaningSi": "රාත්‍රී ආහාරය ගන්නවා"
+        },
+        {
+          "english": "Go to bed",
+          "meaningSi": "නිදාගන්න යනවා"
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "I wake up at six.",
+          "meaningSi": "මම හයට අවදි වෙනවා."
+        },
+        {
+          "pattern": "I go to work at eight.",
+          "meaningSi": "මම අටට වැඩට යනවා."
+        },
+        {
+          "pattern": "I go to bed at ten.",
+          "meaningSi": "මම දහයට නිදාගන්න යනවා."
+        }
+      ],
+      "examples": [
+        {
+          "english": "I wake up at 6 a.m.",
+          "meaningSi": "මම උදේ 6ට අවදි වෙනවා."
+        },
+        {
+          "english": "I have breakfast at 7 a.m.",
+          "meaningSi": "මම උදේ 7ට ආහාර ගන්නවා."
+        },
+        {
+          "english": "I go to bed at 10 p.m.",
+          "meaningSi": "මම රාත්‍රී 10ට නිදාගන්න යනවා."
+        }
+      ],
+      "practiceActivitySi": "උදේ සිට රාත්‍රිය දක්වා ඔබේ දවසේ ක්‍රියාකාරකම් අනුපිළිවෙළට වාක්‍ය 5–7කින් ලියන්න. වේලාවන් එක් කරන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_19_q1",
+          "questionSi": "Wake up යන්නෙහි අර්ථය?",
+          "options": [
+            "නිදාගන්නවා",
+            "අවදි වෙනවා",
+            "කනවා"
+          ],
+          "correctAnswer": "අවදි වෙනවා",
+          "explanationSi": "Wake up යනු නින්දෙන් අවදි වෙනවා යන්නයි."
+        },
+        {
+          "questionId": "lesson_19_q2",
+          "questionSi": "උදේ ආහාරය ගන්නවා යන්නට?",
+          "options": [
+            "Have breakfast",
+            "Have dinner",
+            "Go to bed"
+          ],
+          "correctAnswer": "Have breakfast",
+          "explanationSi": "Breakfast යනු උදේ ආහාරයයි."
+        },
+        {
+          "questionId": "lesson_19_q3",
+          "questionSi": "Daily routine විස්තර කිරීමට සාමාන්‍යයෙන් භාවිතා කරන tense එක?",
+          "options": [
+            "Present Simple",
+            "Past Perfect",
+            "Future Continuous"
+          ],
+          "correctAnswer": "Present Simple",
+          "explanationSi": "දිනපතා පුරුදු Present Simple මඟින් කියනවා."
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_20",
+      "levelId": "level_03",
+      "lessonNumber": 20,
+      "title": "Everyday Conversations",
+      "learningObjective": "ආචාර කිරීම, තමන් හඳුන්වාදීම සහ සරල පුද්ගලික තොරතුරු හුවමාරු කරගැනීම.",
+      "explanationSi": "දෛනික සංවාදයකදී greeting එකකින් ආරම්භ කර තමන්ගේ නම, ජීවත් වන ස්ථානය සහ රැකියාව/අධ්‍යාපනය ගැන කියන්න පුළුවන්. කෙටි පිළිතුරු දීමත් අනෙක් පුද්ගලයාගෙන් ප්‍රශ්න ඇසීමත් පුහුණු වන්න. ආචාරශීලී වචන භාවිතා කරන්න.",
+      "vocabulary": [
+        {
+          "english": "My name is...",
+          "meaningSi": "මගේ නම ..."
+        },
+        {
+          "english": "Nice to meet you.",
+          "meaningSi": "ඔබ හමුවීම සතුටක්."
+        },
+        {
+          "english": "How are you?",
+          "meaningSi": "ඔබට කොහොමද?"
+        },
+        {
+          "english": "I'm fine, thank you.",
+          "meaningSi": "මම හොඳින්, ස්තුතියි."
+        },
+        {
+          "english": "Where do you live?",
+          "meaningSi": "ඔබ කොහෙද ජීවත් වෙන්නේ?"
+        },
+        {
+          "english": "I live in...",
+          "meaningSi": "මම ... ජීවත් වෙනවා."
+        },
+        {
+          "english": "What do you do?",
+          "meaningSi": "ඔබ මොකද කරන්නේ?"
+        },
+        {
+          "english": "I am a student.",
+          "meaningSi": "මම ශිෂ්‍යයෙක්/ශිෂ්‍යාවක්."
+        }
+      ],
+      "sentencePatterns": [
+        {
+          "pattern": "My name is Nimal.",
+          "meaningSi": "මගේ නම නිමල්."
+        },
+        {
+          "pattern": "I live in Sri Lanka.",
+          "meaningSi": "මම ශ්‍රී ලංකාවේ ජීවත් වෙනවා."
+        },
+        {
+          "pattern": "I am a student.",
+          "meaningSi": "මම ශිෂ්‍යයෙක්/ශිෂ්‍යාවක්."
+        }
+      ],
+      "examples": [
+        {
+          "english": "A: Hello! What is your name?",
+          "meaningSi": "A: ආයුබෝවන්! ඔබේ නම මොකක්ද?"
+        },
+        {
+          "english": "B: My name is Amal. Nice to meet you.",
+          "meaningSi": "B: මගේ නම අමල්. ඔබ හමුවීම සතුටක්."
+        },
+        {
+          "english": "A: Where do you live? B: I live in Kandy.",
+          "meaningSi": "A: ඔබ කොහෙද ජීවත් වෙන්නේ? B: මම මහනුවර ජීවත් වෙනවා."
+        }
+      ],
+      "practiceActivitySi": "පුද්ගලයන් දෙදෙනෙකුගේ කෙටි සංවාදයක් සකස් කරන්න. Greeting, name, how are you, where do you live සහ what do you do යන කොටස් ඇතුළත් කර හඬින් කියන්න.",
+      "quiz": [
+        {
+          "questionId": "lesson_20_q1",
+          "questionSi": "තමන්ගේ නම කියන්න නිවැරදි වාක්‍යය?",
+          "options": [
+            "I name is Amal.",
+            "My name is Amal.",
+            "Me is Amal."
+          ],
+          "correctAnswer": "My name is Amal.",
+          "explanationSi": "My name is ... යනු තමන්ගේ නම හඳුන්වාදීමේ නිවැරදි රටාවයි."
+        },
+        {
+          "questionId": "lesson_20_q2",
+          "questionSi": "Where do you live? යන්නෙන් අසන්නේ?",
+          "options": [
+            "ඔබේ නම කුමක්ද?",
+            "ඔබ කොහෙද ජීවත් වෙන්නේ?",
+            "ඔබට වයස කීයද?"
+          ],
+          "correctAnswer": "ඔබ කොහෙද ජීවත් වෙන්නේ?",
+          "explanationSi": "Where do you live? යනු ජීවත් වන ස්ථානය අසන ප්‍රශ්නයයි."
+        },
+        {
+          "questionId": "lesson_20_q3",
+          "questionSi": "How are you? සඳහා සුදුසු පිළිතුරක්?",
+          "options": [
+            "I'm fine, thank you.",
+            "My name is fine.",
+            "I live fine."
+          ],
+          "correctAnswer": "I'm fine, thank you.",
+          "explanationSi": "How are you? යන්නට I'm fine, thank you. ලෙස පිළිතුරු දිය හැකියි."
+        }
+      ]
+    }
+  ]
+}
